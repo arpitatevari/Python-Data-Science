@@ -7,8 +7,8 @@ b=Actor('icecream',(50,50))
 vx,vy=3,2
 
 def draw():
-    screen.fill('purple')
-    screen.draw.filled_rect(b,'pink')
+    screen.fill('white')
+    b.draw()
 
 def update():
     global vx,vy
